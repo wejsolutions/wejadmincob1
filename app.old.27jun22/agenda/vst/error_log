@@ -1,0 +1,11 @@
+[18-May-2016 10:14:59 America/Caracas] PHP Notice:  Undefined offset: 2 in /home/drazocarsistemas/public_html/ciruplas/app/paciente/cls/cPaciente.php on line 91
+[18-May-2016 10:14:59 America/Caracas] PHP Notice:  Undefined offset: 1 in /home/drazocarsistemas/public_html/ciruplas/app/paciente/cls/cPaciente.php on line 92
+[08-Jun-2016 09:51:12 America/Caracas] PHP Notice:  Undefined variable: iniciof in /home/drazocarsistemas/public_html/ciruplas/app/agenda/vst/agendar.php on line 35
+[08-Jun-2016 09:51:12 America/Caracas] PHP Notice:  Undefined variable: finff in /home/drazocarsistemas/public_html/ciruplas/app/agenda/vst/agendar.php on line 48
+[08-Jun-2016 09:51:37 America/Caracas] PHP Notice:  Undefined variable: iniciof in /home/drazocarsistemas/public_html/ciruplas/app/agenda/vst/agendar.php on line 35
+[08-Jun-2016 09:51:37 America/Caracas] PHP Notice:  Undefined variable: finff in /home/drazocarsistemas/public_html/ciruplas/app/agenda/vst/agendar.php on line 48
+[08-Jun-2016 09:52:28 America/Caracas] PHP Notice:  Undefined variable: iniciof in /home/drazocarsistemas/public_html/ciruplas/app/agenda/vst/agendar.php on line 35
+[08-Jun-2016 09:52:28 America/Caracas] PHP Notice:  Undefined variable: finff in /home/drazocarsistemas/public_html/ciruplas/app/agenda/vst/agendar.php on line 48
+[08-Jun-2016 09:55:31 America/Caracas] PHP Notice:  Undefined variable: iniciof in /home/drazocarsistemas/public_html/ciruplas/app/agenda/vst/agendar.php on line 36
+[08-Jun-2016 09:55:31 America/Caracas] PHP Notice:  Undefined variable: finff in /home/drazocarsistemas/public_html/ciruplas/app/agenda/vst/agendar.php on line 50
+[08-Jun-2016 09:57:55 America/Caracas] PHP Notice:  Undefined variable: finf in /home/drazocarsistemas/public_html/ciruplas/app/agenda/vst/agendar.php on line 48

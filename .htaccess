@@ -1,0 +1,16 @@
+#Options All -Indexes
+RewriteEngine On
+RewriteRule ^prc-(.*)-(.*)$ mod.php?clase=$1&metodo=$2 [L]
+RewriteRule ^vst-(.*)-(.*)$ app/$1/vst/$2\.php [L]
+RewriteRule ^vw-(.*)-(.*)-(.*)$ vst.php?vst=$1&app=$2&file=$3 [L]
+RewriteRule ^rpt-(.*)-(.*)$ app/reportes/vst/$1\.php?$2 [L]
+RewriteRule ^login$ 'app/usuarios/vst/login.php' [L]
+RewriteRule ^inicio$ index.php
+RewriteRule ^logout$ 'app/usuarios/vst/logout.php' [L]
+Rewriterule ^cuadrecajareport-(.+)_(.+)_(.+)_(.+) app/reportes/vst/cuadrecajareport.php?f_ini=$1&f_fin=$2&dealer=$3&caja=$4
+Rewriterule ^factura-(.+) app/reportes/vst/factura.php?fact=$1
+Rewriterule ^facturai-(.+) app/reportes/vst/factura10.php?fact=$1
+Rewriterule ^reimprimirfactura-(.+) app/reportes/vst/reimprimirfactura.php?fact=$1
+Rewriterule ^reimprimirfactura10-(.+) app/reportes/vst/reimprimirfactura10.php?fact=$1
+Rewriterule ^facturacompra-(.+) app/reportes/vst/compraverificadetareport.php?fact=$1
+Rewriterule ^notaentrega-(.+) app/reportes/vst/notaentrega.php?noen=$1
