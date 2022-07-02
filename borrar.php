@@ -1,3 +1,3 @@
 <?php
-echo "Esto es una prueba de commit. Prueba 5"
+echo "Prueba 6. Moficado desde Equipo de Edgar"
 ?>
