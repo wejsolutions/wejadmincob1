@@ -26,6 +26,7 @@
 		$sql = "SELECT * FROM vw_contratoPorCliente WHERE contrato_ide = ?" ;
 		$datos = array($contrato_ide);
 		return Enlace::sql($sql,$datos,3,'');
+
 	}
 
 	/* Busca Numero de cuenta asociado en el contrato del cliente */
@@ -55,7 +56,7 @@
 	}
 
 	public function insertarchivo($apb,$afn,$are,$aba,$arb,$acr,$afnr,$arc,$arf,$ast,$tas) {
-		$sql = "SELECT sf_archivos(?,?,?,?,?,?,?,?,?,?,?,?,?,?) AS res";
+		$sql = "SELECT sf_archivos(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) AS res";
 		$datos = array(0,"$apb","$afn",$are,$aba,"$arb","$acr","$afnr",$arc,$arf,$ast,$tas,$_SESSION['s_usua_tienda'],1,$_SESSION['s_clien_ide']);
 		return Enlace::sql($sql,$datos,4,'res');
 	}
@@ -140,5 +141,6 @@
 		} else { $res = "Error NO hay registros de fracciones para este banco en esa moneda"; }
 		return $res;
 	}
+
 	
 } // fin de la clase mFracciones

@@ -6,20 +6,13 @@ extract($_POST);
 	<?php echo $fn->modalHeader('Agregar Cuenta Bancaria') ?>
 	<div class="modal-body">
 		<div class="msjcuentaBancaria"></div>
-
-
-
-
 		<div class="form-group">
 			<label for="" class="label control-label col-sm-3 bolder">Cuenta:</label>
 			<div class="col-sm-9">
-				<input type="text" class="form-control"  placeholder="Numero de Cuenta 20 Digitos" name="cta" minlength="20" maxlength="20" required pattern="[0-9]+">
+				<input type="text" class="form-control" name="cta">
 			</div>
 			<input type="hidden" class="form-control" name="clien_ide" value="<?php echo $clien_ide ?>">			
 		</div>
-
-
-
 		<div class="form-group">
 			<label for="" class="label control-label col-sm-3 bolder">Banco</label>
 			<div class="col-sm-9" id="banco_ide">

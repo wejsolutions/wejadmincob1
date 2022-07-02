@@ -75,8 +75,8 @@
 	}
 
 	public function updatearchivo($ide,$arb,$acr,$afnr,$arc,$arf,$ast) {
-		$sql = "SELECT sf_archivos(?,?,?,?,?,?,?,?,?,?,?,?,?,?) AS res";
-		$datos = array($ide,"","",0,0,"$arb","$acr","$afnr",$arc,$arf,$ast,$_SESSION['s_usua_tienda'],4,$_SESSION['s_clien_ide']);
+		$sql = "SELECT sf_archivos(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) AS res";
+		$datos = array($ide,"","",0,0,"$arb","$acr","$afnr",$arc,$arf,$ast,0,$_SESSION['s_usua_tienda'],4,$_SESSION['s_clien_ide']);
 		return Enlace::sql($sql,$datos,4,'res');
 	}
 

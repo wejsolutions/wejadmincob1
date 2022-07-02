@@ -8,7 +8,7 @@
 			<div class="form-group">
 				<label for="" class="control-label col-sm-3 bolder">Cuenta:</label>
 				<div class="col-sm-9">
-					<input type="text" class="form-control" onpaste="myFunction()" pattern="[0-9]+" placeholder="Número de Cuenta 20 Dígitos" name="cta" minlength="20" maxlength="20" required  value="<?php echo $r->ctecue_cuenta ?>" onkeypress="return solonumeros(event)"> 
+					<input type="text" class="form-control" name="cta" value="<?php echo $r->ctecue_cuenta ?>">
 				</div>
 			</div>
 		</div>
@@ -17,32 +17,6 @@
 	<!-- 	<input type="text" class="form-control" name="clien_ide2" value="<?php //echo $r->ctecue_clien_ide ?>"> -->
 	</form>
 <?php endforeach; ?>
-
-<script type="text/javascript">
-	function solonumeros(e){
-		key=e.keyCode || e.which;
-		teclado=String.fromCharCode(key);
-		numero="0123456789";
-		especiales="8-37-38-46";
-		teclado_especial = false;
-		for (var i in especiales){
-			if(key==especiales[i])
-			{
-				teclado_especial=true;
-			}
-		}
-		if(numero.indexOf(teclado)==-1 && !teclado_especial){
-			return false;
-		}
-
-	}
-
-function myFunction() {
-	return false;
-}
-
-</script>
-
 <script>
 	$(function(){
 		var formulario = '.opCuentaBanco';
