@@ -18,6 +18,7 @@
 	</form>
 <?php endforeach; ?>
 
+<!-- Valida Cuenta de Cliente solo numeros -->
 <script type="text/javascript">
 	function solonumeros(e){
 		key=e.keyCode || e.which;
